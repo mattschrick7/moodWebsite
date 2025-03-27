@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', monospace; /* Rugged, chalky vibe */
-    background: url('https://source.unsplash.com/1600x900/?rock-climbing,cliff') no-repeat center/cover;
+    background: url('./rockFace.jpg') no-repeat center/cover; /* Local image */
     display: flex;
     justify-content: center;
     align-items: center;
