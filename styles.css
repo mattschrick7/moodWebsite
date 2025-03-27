@@ -1,0 +1,67 @@
+body {
+    font-family: 'Courier New', monospace; /* Rugged, chalky vibe */
+    background: url('https://source.unsplash.com/1600x900/?rock-climbing,cliff') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(50, 50, 50, 0.8); /* Dark rock face */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input[type="range"] {
+    width: 250px;
+    -webkit-appearance: none;
+    height: 10px;
+    background: linear-gradient(to right, #8b0000, #32cd32); /* Red crux to green top-out */
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    background: url('https://img.icons8.com/ios-filled/24/FFFFFF/carabiners.png') no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#moodValue {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffd700; /* Chalk dust gold */
+}
+
+#status {
+    font-size: 16px;
+    color: #ccc;
+    text-shadow: 1px 1px 1px #000;
+}
