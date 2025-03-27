@@ -25,7 +25,7 @@ slider.addEventListener('change', async () => {
     
 
     try {
-        const response = await fetch('http://3.136.236.215:3000/send-mood', {
+        const response = await fetch('https://3.136.236.215:3000/send-mood', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ mood })
