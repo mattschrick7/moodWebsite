@@ -22,7 +22,7 @@ slider.addEventListener('input', () => {
 
 slider.addEventListener('change', async () => {
     const mood = slider.value;
-    status.textContent = 'Hold on...';
+    
 
     try {
         const response = await fetch('http://3.136.236.215:3000/send-mood', {
